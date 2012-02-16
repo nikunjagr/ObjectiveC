@@ -11,6 +11,7 @@
 		C7C1D8D814EC3EA100E7C3B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C1D8D714EC3EA100E7C3B0 /* main.m */; };
 		C7C1D8DC14EC3EA100E7C3B0 /* Stocks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7C1D8DB14EC3EA100E7C3B0 /* Stocks.1 */; };
 		C7C1D8E414EC3EB700E7C3B0 /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C1D8E314EC3EB700E7C3B0 /* StockHolding.m */; };
+		C7C5AA6614EC8CB5008DE448 /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C5AA6514EC8CB5008DE448 /* ForeignStockHolding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		C7C1D8DB14EC3EA100E7C3B0 /* Stocks.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Stocks.1; sourceTree = "<group>"; };
 		C7C1D8E214EC3EB700E7C3B0 /* StockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockHolding.h; sourceTree = "<group>"; };
 		C7C1D8E314EC3EB700E7C3B0 /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
+		C7C5AA6414EC8CB5008DE448 /* ForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForeignStockHolding.h; path = Stocks/ForeignStockHolding.h; sourceTree = "<group>"; };
+		C7C5AA6514EC8CB5008DE448 /* ForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForeignStockHolding.m; path = Stocks/ForeignStockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +55,9 @@
 			isa = PBXGroup;
 			children = (
 				C7C1D8E214EC3EB700E7C3B0 /* StockHolding.h */,
+				C7C5AA6414EC8CB5008DE448 /* ForeignStockHolding.h */,
 				C7C1D8E314EC3EB700E7C3B0 /* StockHolding.m */,
+				C7C5AA6514EC8CB5008DE448 /* ForeignStockHolding.m */,
 				C7C1D8D614EC3EA100E7C3B0 /* Stocks */,
 				C7C1D8D314EC3EA100E7C3B0 /* Frameworks */,
 				C7C1D8D114EC3EA100E7C3B0 /* Products */,
@@ -145,6 +150,7 @@
 			files = (
 				C7C1D8D814EC3EA100E7C3B0 /* main.m in Sources */,
 				C7C1D8E414EC3EB700E7C3B0 /* StockHolding.m in Sources */,
+				C7C5AA6614EC8CB5008DE448 /* ForeignStockHolding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +241,7 @@
 				C7C1D8E114EC3EA100E7C3B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

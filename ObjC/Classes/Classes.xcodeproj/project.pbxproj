@@ -11,6 +11,8 @@
 		C7C1D8B414EC3A6200E7C3B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C1D8B314EC3A6200E7C3B0 /* main.m */; };
 		C7C1D8B814EC3A6200E7C3B0 /* Classes.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7C1D8B714EC3A6200E7C3B0 /* Classes.1 */; };
 		C7C1D8C014EC3AA500E7C3B0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C1D8BF14EC3AA500E7C3B0 /* Person.m */; };
+		C7C5AA6E14EC9845008DE448 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C5AA6D14EC9845008DE448 /* Employee.m */; };
+		C7C5AA7214EC98C4008DE448 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C5AA7114EC98C4008DE448 /* Asset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		C7C1D8B714EC3A6200E7C3B0 /* Classes.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Classes.1; sourceTree = "<group>"; };
 		C7C1D8BE14EC3AA500E7C3B0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Classes/Person.h; sourceTree = "<group>"; };
 		C7C1D8BF14EC3AA500E7C3B0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Classes/Person.m; sourceTree = "<group>"; };
+		C7C5AA6C14EC9845008DE448 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		C7C5AA6D14EC9845008DE448 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		C7C5AA7014EC98C4008DE448 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		C7C5AA7114EC98C4008DE448 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				C7C1D8BE14EC3AA500E7C3B0 /* Person.h */,
+				C7C5AA6C14EC9845008DE448 /* Employee.h */,
+				C7C5AA6D14EC9845008DE448 /* Employee.m */,
+				C7C5AA7014EC98C4008DE448 /* Asset.h */,
+				C7C5AA7114EC98C4008DE448 /* Asset.m */,
 				C7C1D8BF14EC3AA500E7C3B0 /* Person.m */,
 				C7C1D8B214EC3A6200E7C3B0 /* Classes */,
 				C7C1D8AF14EC3A6200E7C3B0 /* Frameworks */,
@@ -145,6 +155,8 @@
 			files = (
 				C7C1D8B414EC3A6200E7C3B0 /* main.m in Sources */,
 				C7C1D8C014EC3AA500E7C3B0 /* Person.m in Sources */,
+				C7C5AA6E14EC9845008DE448 /* Employee.m in Sources */,
+				C7C5AA7214EC98C4008DE448 /* Asset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +247,7 @@
 				C7C1D8BD14EC3A6200E7C3B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
