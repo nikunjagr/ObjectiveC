@@ -1,14 +1,14 @@
 //
-//  AppDelegate.m
-//  FirstIphoneApp
+//  BNRAppDelegate.m
+//  FirstiPhoneApp
 //
 //  Created by Harjeet Taggar on 2/24/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "BNRAppDelegate.h"
 
-@implementation AppDelegate
+@implementation BNRAppDelegate
 
 @synthesize window = _window;
 

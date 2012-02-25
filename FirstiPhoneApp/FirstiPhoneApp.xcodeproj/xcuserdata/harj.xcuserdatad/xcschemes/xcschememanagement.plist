@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FirstIphoneApp.xcscheme</key>
+		<key>FirstiPhoneApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C7C3E49114F88A0400321D2E</key>
+		<key>C7C3E4CF14F88D1B00321D2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C7C3E4AC14F88A0400321D2E</key>
+		<key>C7C3E4EA14F88D1B00321D2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

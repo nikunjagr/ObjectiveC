@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7C3E49114F88A0400321D2E"
-               BuildableName = "FirstIphoneApp.app"
-               BlueprintName = "FirstIphoneApp"
-               ReferencedContainer = "container:FirstIphoneApp.xcodeproj">
+               BlueprintIdentifier = "C7C3E4CF14F88D1B00321D2E"
+               BuildableName = "FirstiPhoneApp.app"
+               BlueprintName = "FirstiPhoneApp"
+               ReferencedContainer = "container:FirstiPhoneApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,20 +31,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7C3E4AC14F88A0400321D2E"
-               BuildableName = "FirstIphoneAppTests.octest"
-               BlueprintName = "FirstIphoneAppTests"
-               ReferencedContainer = "container:FirstIphoneApp.xcodeproj">
+               BlueprintIdentifier = "C7C3E4EA14F88D1B00321D2E"
+               BuildableName = "FirstiPhoneAppTests.octest"
+               BlueprintName = "FirstiPhoneAppTests"
+               ReferencedContainer = "container:FirstiPhoneApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7C3E49114F88A0400321D2E"
-            BuildableName = "FirstIphoneApp.app"
-            BlueprintName = "FirstIphoneApp"
-            ReferencedContainer = "container:FirstIphoneApp.xcodeproj">
+            BlueprintIdentifier = "C7C3E4CF14F88D1B00321D2E"
+            BuildableName = "FirstiPhoneApp.app"
+            BlueprintName = "FirstiPhoneApp"
+            ReferencedContainer = "container:FirstiPhoneApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -59,10 +59,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7C3E49114F88A0400321D2E"
-            BuildableName = "FirstIphoneApp.app"
-            BlueprintName = "FirstIphoneApp"
-            ReferencedContainer = "container:FirstIphoneApp.xcodeproj">
+            BlueprintIdentifier = "C7C3E4CF14F88D1B00321D2E"
+            BuildableName = "FirstiPhoneApp.app"
+            BlueprintName = "FirstiPhoneApp"
+            ReferencedContainer = "container:FirstiPhoneApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,10 +77,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C7C3E49114F88A0400321D2E"
-            BuildableName = "FirstIphoneApp.app"
-            BlueprintName = "FirstIphoneApp"
-            ReferencedContainer = "container:FirstIphoneApp.xcodeproj">
+            BlueprintIdentifier = "C7C3E4CF14F88D1B00321D2E"
+            BuildableName = "FirstiPhoneApp.app"
+            BlueprintName = "FirstiPhoneApp"
+            ReferencedContainer = "container:FirstiPhoneApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
