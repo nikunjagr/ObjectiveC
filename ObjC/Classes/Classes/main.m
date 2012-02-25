@@ -42,6 +42,12 @@ int main (int argc, const char * argv[])
             [assets addObject:asset];
         }
         
+        NSSortDescriptor *voa = [NSSortDescriptor sortDescriptorWithKey:@"valueOfAssets" ascending:YES];     
+        NSSortDescriptor *ei = [NSSortDescriptor sortDescriptorWithKey:@"employeeID" ascending:YES];
+        
+        [employees sortUsingDescriptors:[NSArray arrayWithObjects:voa, ei, nil]];
+        
+        
         NSLog(@"Employees: %@", employees);
         NSLog(@"Giving up ownership of one employee");
         [employees removeObjectAtIndex:5];
@@ -49,8 +55,12 @@ int main (int argc, const char * argv[])
         employees = nil;
         NSLog(@"allAssets: %@", assets);
         
+       
+        
+        
+        
     }
-    sleep(100);
+    
     return 0;
 }
 
