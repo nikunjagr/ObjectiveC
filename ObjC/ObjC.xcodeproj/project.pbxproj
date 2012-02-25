@@ -10,6 +10,7 @@
 		C7C5AA5014EB4A2A008DE448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C5AA4F14EB4A2A008DE448 /* Foundation.framework */; };
 		C7C5AA5314EB4A2A008DE448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C5AA5214EB4A2A008DE448 /* main.m */; };
 		C7C5AA5714EB4A2A008DE448 /* ObjC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7C5AA5614EB4A2A008DE448 /* ObjC.1 */; };
+		C7C5AA5F14EC8C6C008DE448 /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C5AA5E14EC8C6C008DE448 /* ForeignStockHolding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		C7C5AA5214EB4A2A008DE448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7C5AA5514EB4A2A008DE448 /* ObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjC-Prefix.pch"; sourceTree = "<group>"; };
 		C7C5AA5614EB4A2A008DE448 /* ObjC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObjC.1; sourceTree = "<group>"; };
+		C7C5AA5D14EC8C6C008DE448 /* ForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForeignStockHolding.h; path = Stocks/ForeignStockHolding.h; sourceTree = "<group>"; };
+		C7C5AA5E14EC8C6C008DE448 /* ForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForeignStockHolding.m; path = Stocks/ForeignStockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		C7C5AA4014EB4A29008DE448 = {
 			isa = PBXGroup;
 			children = (
+				C7C5AA5D14EC8C6C008DE448 /* ForeignStockHolding.h */,
+				C7C5AA5E14EC8C6C008DE448 /* ForeignStockHolding.m */,
 				C7C5AA5114EB4A2A008DE448 /* ObjC */,
 				C7C5AA4E14EB4A2A008DE448 /* Frameworks */,
 				C7C5AA4C14EB4A2A008DE448 /* Products */,
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7C5AA5314EB4A2A008DE448 /* main.m in Sources */,
+				C7C5AA5F14EC8C6C008DE448 /* ForeignStockHolding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

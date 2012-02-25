@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "StockHolding.h"
+#import "ForeignStockHolding.h"
 
 int main (int argc, const char * argv[])
 {
@@ -26,6 +27,14 @@ int main (int argc, const char * argv[])
             int value = [s valueInDollars];
             NSLog(@"value of the stock is %d", value);
         }
+        
+        ForeignStockHolding *foreign = [[ForeignStockHolding alloc] init];
+        [foreign setPurchaseSharePrice:80];
+        [foreign setNumberOfShares:5];
+        [foreign setCurrentSharePrice:510];
+        [foreign setConversionRate:2.5];
+        
+        NSLog(@"value of foreign stock is %f", [foreign valueInDollars]);
         
         
     }
